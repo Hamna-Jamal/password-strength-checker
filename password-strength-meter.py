@@ -1,5 +1,5 @@
 import re
-from turtle import st
+
 import streamlit as st 
 st.set_page_config(page_title="Password Strength Checker", page_icon="🌘", layout="centered")
 st.markdown("""
