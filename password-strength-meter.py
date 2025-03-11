@@ -10,7 +10,7 @@ st.markdown("""
     .stButton button:hover { background-color: red; color:white}
 </style>
 """, unsafe_allow_html=True)
-st.title("🔐 PASSWORD STRENGTH GENERATOR")
+st.title("🔐 Password Strength Generator")
 st.write("Enter your password below to check its security level. 🔍")
 
 def check_password_strength(password):
